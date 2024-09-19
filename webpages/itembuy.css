@@ -1,0 +1,55 @@
+.item1 h2{
+	margin-left: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.item1 table{
+	border-width: 8px;
+	float: left;
+	margin-left: 20px;
+}
+
+.item1 img{
+	height: 500px;
+	width: 500px;
+}
+
+.item1 .description table{
+	float: right;
+	margin-top: 0;
+	width: 55%;
+	height: 50px;
+}
+
+.desc2{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+
+}
+
+.desc3{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.desc4{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10px;
+}
+
+.btn{
+
+    margin-top: 5px;
+    color: white;
+    background: #ff3300 ;
+    height: 40px;
+    width: 100px;
+}
+
+

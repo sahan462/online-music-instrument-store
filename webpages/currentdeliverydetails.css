@@ -1,0 +1,41 @@
+.topic{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 20;
+    margin-left: 10px;
+
+
+}
+
+.section table{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.section .btn1{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background: #ff3300;
+    border-radius: 5px;
+    position: absolute;
+    float: right;
+    margin-left: 900px;
+}
+
+.section .btn2{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background: #ff3300;
+    border-radius: 5px;
+    position: absolute;
+    float: right;
+    margin-left: 900px;
+    margin-top: 60px;
+}

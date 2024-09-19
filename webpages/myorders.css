@@ -1,0 +1,385 @@
+/*HEADER*/
+
+html,body{
+padding: 0px;
+margin: 0px;
+height: 100%;
+width: 100%;
+font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+
+}
+.header{
+    width:100%;
+    height: 210px;
+    background-color:black;
+}
+
+.button{
+    float: right;
+    margin-top: 10px;
+    margin-right: 17px;
+    background: #333;
+}
+
+.sponsor1{
+    float:right;
+    margin:4px 20px 4px 8px;
+}
+
+.sponsor2{
+    float:right;
+    margin:4px 8px 4px 8px;
+}
+
+.contact{
+        float: left;
+        margin-top: 10px;
+        margin-left: 25px;
+
+}
+
+.header h4{
+    color:white;
+    text-align:right;
+}
+
+.logo{
+    float: left;
+    margin-left:4px ;
+}
+
+.webname{
+    font-size: 200px;
+    color:white;
+    text-align:left;
+    margin-top: 20px;
+    margin-left: 550px;
+    font-weight: 5px;
+}
+
+.webname a{
+    color: white;
+    text-decoration: none;
+}
+
+.search-box{
+    position:absolute;
+    top:23%;
+    left:30%;
+    transform:(-50%,-50%);
+    
+}
+
+.search-btn{
+    color:white;
+    transition: 0.4s;
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+}
+    
+
+.search-text{
+    border:none;
+    height:35px;
+    font-size: 14pt;
+}
+
+.shopuser1{
+    float: right;
+    margin:8px 8px 8px 8px;
+}
+
+.shopuser2{
+    float: right;
+    margin:8px 8px 8px 8px;
+}
+
+.shopuser3{
+    float: right;
+    margin:8px 8px 8px 8px;
+}
+
+.page-wrapper{
+    min-height: 20%;
+}
+
+/*Navigation Bar*/
+
+.navbar ul{
+    width: 100%;
+    float: right;
+    margin-top: 0;
+    background:  #1b1b1b;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 15px 30px;
+
+}
+
+.navbar ul li a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+.navbar ul li a:hover{
+    color: #f4511e;
+    background: #1e1e1e;
+    border-left-color: #f4511e;
+}
+
+/*----------------------------------------*/
+
+/* Accounts Table*/
+
+.account_table table{
+	width: 300px;
+	font-size: 30;
+	float: right;
+	margin-top: 70px;
+	margin-right: 85px;
+	margin-bottom: 5px;
+	border-color: #333;
+	border-width: 2;
+	position: sticky;
+	top: 0;
+}
+
+.account_table table{
+	float: right;
+}
+
+.account_table table td{
+	float: left;
+	border: 0;
+}
+
+/*---cart items---*/
+
+.Cart_table{
+	margin:40px auto;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.Cart_table table{
+	width: 96%;
+	overflow-y: auto;
+	border-collapse: collapse ;
+	margin-left: 20px;
+    margin-right: 20px;
+	font-family: 'Roboto', sans-serif;	
+	margin-bottom: 50px;
+	float: left;
+}
+
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Cart_table table tr{
+	border-bottom: 1px solid #333;
+}
+
+.Cart_table table th{
+	padding: 5px;
+	color: black;
+	background:  #f4511e;
+	font-weight: normal;
+	font-size: 20px;
+	position: sticky;
+	top: 0;
+}
+
+
+.Cart_table table td{
+	padding: 10px 5px;
+}
+
+.Cart_table table td input{
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+.Cart_table table td a{
+	color: #f4511e ;
+	font-size: 12px;
+}
+
+.Cart_table table td img{
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+}
+
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.total-price table{
+	border-top: 3px solid  #f4511e;
+	width: 80%;
+	max-width: 350px;
+}
+
+td:last-child{
+	text-align: right;
+}
+
+th:last-child{
+	text-align: right;
+}
+
+.topic{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 20;
+    margin-left: 10px;
+
+
+}
+
+.SCart .btn{
+    margin-right: 40px;
+    color: white;
+    background: #ff3300 ;
+    height: 40px;
+    width: 300px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 5px;
+    position: sticky;
+}
+
+.SCart .btn1{
+    color: #ff3300;
+    background: white ;
+    height: 22px;
+    width: 75px;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.SCart .btn1:hover{
+	color: black;
+}
+
+.accounts table{
+	width: 20%;
+	float: right;
+}
+
+/*----------------------------------------*/
+/*FOOTER*/
+
+.footer{
+    background: black;
+    color: #5a677d;
+    height: 280px;
+    position: relative;
+    margin-top: 0;
+    width: 100%;
+    float:left;
+
+
+}
+
+.footer .footer-content{
+
+}
+
+.footer .footer-content .sec1{
+    height: 125px;
+    border-bottom: 1px solid white;
+
+}
+
+.footer .footer-content .sec1 a{
+    font-size: 20px;
+    color: #5a677d;
+    text-decoration: none;
+    float: left;
+}
+
+.footer .footer-content .sec1 .a1{
+    font-size: 15px;
+    color: #5a677d;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer .footer-content .sec2 .a2{
+    font-size: 12px;
+    color: #5a677d;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer .footer-content .sec2 .smicon{
+    float: right;
+    margin-top: 20px ;  
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer .footer-content .sec1 .emailtop{
+    height: 18px;
+    font-size: 10pt;
+    float: all;
+    color: #5a677d;
+}
+
+.footer .footer-content .sec1 .emailbtn{
+    height: 20px;
+    font-size: 12pt;
+    float: right;
+    margin-top: 60px; 
+    margin-right: 15px;
+    color: #5a677d ;
+    border: 2px solid white;
+}
+
+.footer .footer-content .sec1 .email{
+    height: 20px;
+    font-size: 12pt;
+    float: right;
+    margin-top: 60px;
+    margin-right:2px ;
+    border: 2px solid white;
+}
+
+.footer .footer-bottom{
+    background: #333;
+    color: #5a677d;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+}

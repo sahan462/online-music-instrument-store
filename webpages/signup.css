@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&family=Be+Vietnam:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,900&display=swap');
+
+.sign_up
+{
+    width: 400px;
+    height: 700px;
+    margin:auto;
+    margin-top: 80px;
+    border: 3px solid #cbd6ce;
+    background: #f5f3f0;
+    position:relative;
+}
+
+h2
+{
+    text-align:center;
+    padding: 5px;
+    font-family: Be Vietnam;
+    font-size: 40px;
+}
+
+h4
+{
+    text-align: center;
+    padding: 0px;
+    font-family: Arsenal;
+}
+
+label
+{
+    top: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family:  Be Vietnam Pro;
+}
+
+#Fname
+{
+    width: 80%;
+    border: 3px solid #cbd6ce;
+    left: 20px;
+    height: 30px;
+    font-family: Arsenal;
+    position: absolute;
+}
+
+#email
+{
+    width: 80%;
+    border: 3px solid #cbd6ce;
+    left: 20px;
+    height: 30px;
+    font-family: Arsenal;
+    position: absolute; 
+}
+
+#pass
+{
+    width: 80%;
+    border: 3px solid #cbd6ce;
+    left: 20px;
+    height: 30px;
+    font-family: Arsenal;
+    position: absolute; 
+}
+
+#C_pass
+{
+    width: 80%;
+    border: 3px solid #cbd6ce;
+    left: 20px;
+    height: 30px;
+    font-family: Arsenal;
+    position: absolute; 
+}
+
+#sign_up
+{
+    right: 50px;
+    bottom: 100px;
+    border: 1px solid #eb4034;
+    background-color: #eb4034;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Arsenal;
+    color: #ede4e4;
+    position: absolute;
+    cursor: pointer;
+}
+
+#sign_up:hover
+{
+    color: #000;
+}
+
+.signup
+{
+    bottom: 105px;
+    left: 8px;   
+    position: absolute;
+    padding-left: 175px;
+    font-family: Be Vietnam Pro;
+    font-size: smaller;
+    color: #eb4034;
+}
+
+.signup:hover
+{
+     color: #000;
+
+}
+
+span
+{
+    left: 20px;
+    font-family: Arsenal;
+    position: absolute;
+}
+
+
